@@ -39,7 +39,7 @@ The following is the structure of permissions:
 
 You can modify permissions in two ways by using the command ***chmode*** which sets the permissions for files and directories
 
-Consider the folowing file:
+Consider the following file:
 
 > ls -ll | grep file
 > 
@@ -82,9 +82,9 @@ The default inital values that Linux assigned are:
 * Directories: 777 (rwxrwxrwx)
 
 Because of the ***umask*** value, your file will be created as 664 and your directory as 775. 
-The way you calculate this is by substracting the ***umask*** value to the default initial values. 
+The way you calculate this is by subtracting the ***umask*** value to the default initial values. 
 
-For example if you want no changes on any new file or directory you create then you apply the following command:
+For example, if you want no changes on any new file or directory you create then you apply the following command:
 
 ```
 server@server:~$ umask -S
@@ -99,12 +99,12 @@ Notice that now our files and directories will be created with the default initi
 
 ## Special File Permissions:
 
-Lastly, there are tree more Bits that need to be taken in consideration:
+Lastly, there are three more Bits that need to be taken in consideration:
 
 | Bit |  |  | |
 | - | - | - | - |
-| setuid | Set on binary executable files at the owner level | Allows the file to be executed by no-owners with the same priviledges as the user | -rw**S**rwxrwx |
-| setgid | Set on binary executable files at the group level | Allows to execute the file by no-owners with the same priviledges as the group | -rwxrw**S**rwx |
+| setuid | Set on binary executable files at the owner level | Allows the file to be executed by no-owners with the same privileges as the user | -rw**S**rwxrwx |
+| setgid | Set on binary executable files at the group level | Allows to execute the file by no-owners with the same privileges as the group | -rwxrw**S**rwx |
 | sticky | Set on public and shared writable directories | Protect files and subdirectories from being deleted or moved by other users | drwxrwxrw**T** |
 
 Example: setuid
