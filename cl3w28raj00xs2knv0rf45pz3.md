@@ -10,7 +10,7 @@ You may download this distribution at [Ubuntu Site](https://ubuntu.com/download/
 
 You may proceed to install this OS on either bare metal, vmware, qemu or other method. It does not matter. 
 
-For simplicity I have created differnt categories you should follow based on your needs. 
+For simplicity I have created different categories you should follow based on your needs. 
 
 
 ## > Code Editor
@@ -19,7 +19,7 @@ _________________
 
 | [Download](https://code.visualstudio.com/Download) |
 
-My recomendation goes to Visual Studio Code to be used as the prefered Code Editor. 
+My recommendation goes to Visual Studio Code to be used as the preferred Code Editor. 
 
 The following are the Extensions I recommend to install: 
 
@@ -51,7 +51,7 @@ The following are the Extensions I recommend to install:
 
 ## > Programming 
 _________________
-### Python: (Interpreted, High-Level and general purpose programming language)
+### Python: (Interpreted, High-Level and general-purpose programming language)
 
 | [Documentation](https://docs.python.org/3/) |
 
@@ -108,7 +108,7 @@ _________________
 		django
 ```
     
- - Modiles/Libraries already integrated with Python:
+ - Modules/Libraries already integrated with Python:
 
 ```
 		pprint		("pretty-print" Python Data Structures)
@@ -236,7 +236,7 @@ _________________
 	ansible all -i "localhost," -m debug -a "msg='Hello Ansible'"
 ```
 
-### Terraform (Infraestructure as Code IaC)
+### Terraform (Infrastructure as Code IaC)
 | [Documentation](https://www.terraform.io/docs) |
 
 How to [Install](https://learn.hashicorp.com/tutorials/terraform/install-cli)
