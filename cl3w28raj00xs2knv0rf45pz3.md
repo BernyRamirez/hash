@@ -4,7 +4,7 @@
 
 This server was setup using Ubuntu Server 22.04, but you may use the lists provided in this article to install them on your desired distribution. 
 
-You may download this distribution at: https://ubuntu.com/download/server click on Option2 and Manual Server installation. 
+You may download this distribution at [Ubuntu Site](https://ubuntu.com/download/server) click on Option2 and Manual Server installation. 
 
 >Note: I will not cover how to install this distribution, but I can advise not to install any of the packets that come with the distribution, like docker, as it may cause unexpected behavior that may conflict with my instructions below.  
 
@@ -13,10 +13,11 @@ You may proceed to install this OS on either bare metal, vmware, qemu or other m
 For simplicity I have created differnt categories you should follow based on your needs. 
 
 
-## ==> Code Editor
+## > Code Editor
+_________________
 ### Visual Studio Code. 
 
-| Download | https://code.visualstudio.com/Download |
+| [Download](https://code.visualstudio.com/Download) |
 
 My recomendation goes to Visual Studio Code to be used as the prefered Code Editor. 
 
@@ -47,13 +48,12 @@ The following are the Extensions I recommend to install:
 	- Jupyter  
 	- Markdown All in One  
 ```
-<br />
 
-## ==> Programming 
-
+## > Programming 
+_________________
 ### Python: (Interpreted, High-Level and general purpose programming language)
 
-| Documentation | https://docs.python.org/3/ | 
+| [Documentation](https://docs.python.org/3/) |
 
  - Make sure you have the most updated version of Python:
 
@@ -119,13 +119,12 @@ The following are the Extensions I recommend to install:
 		pytest		(Python testing framework)
 		json		(JavaScript Object Notation parser)
 ```
-<br />
 
-## ==> Projects
-
+## > Projects
+_________________
 ### Poetry (dependency management and packaging in Python)
 
-| Documentation | https://python-poetry.org/docs/ | 
+| [Documentation](https://python-poetry.org/docs/) |
 
 ```
 	curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
@@ -135,12 +134,10 @@ The following are the Extensions I recommend to install:
 	poetry --version or ~/.poetry/bin$ ./poetry --version		(Check the current version)
     Poetry version 1.1.1
 ```
-<br />
 
 ## Cookiercutter (project templates)
 
-| Documentation | https://cookiecutter.readthedocs.io/en/2.1.0/ | 
-
+| [Documentation](https://cookiecutter.readthedocs.io/en/2.1.0/) |
 
 ```
 	pip install --user cookiecutter
@@ -149,11 +146,11 @@ The following are the Extensions I recommend to install:
     Poetry version 1.1.1
 ```
 
-## ==> Version Control 
+## > Version Control 
 
 ### Git: (version-control system for tracking changes in source code)
 
-| Documentation | https://git-scm.com/doc | 
+| [Documentation](https://git-scm.com/doc) |
 
  - Make sure you have the latest version of git
 
@@ -164,11 +161,11 @@ The following are the Extensions I recommend to install:
 	git version 2.34.1
 ```
 
-## ==> Containers 
-
+## > Containers 
+_________________
 ### Docker (OS-level virtualization to deliver software in packages called containers)
 
-| Documentation | https://docs.docker.com/engine/install/ubuntu/ | 
+| [Documentation](https://docs.docker.com/engine/install/ubuntu/) |
 
 - Install Docker:
 
@@ -208,10 +205,9 @@ Test your installation:
 	docker run hello-world			(Test installation)
 	docker images					(Show current docker images)
 ```
-<br />
 
 ### Docker-compose (To define and run multi-container docker applications)
-| Documentation | https://docs.docker.com/compose/ | 
+| [Documentation](https://docs.docker.com/compose/) |
 
 ```
 	sudo apt-get install docker-compose
@@ -223,13 +219,11 @@ Test your installation:
 	CPython version: 3.10.4
 	OpenSSL version: OpenSSL 3.0.2 15 Mar 2022
 ```
-<br />
 
-##  ==> Automation-Orquestration 
-
+##  > Automation-Orquestration 
+_________________
 ### Ansible (automation tool)
-
-| Documentation | https://docs.ansible.com/ | 
+| [Documentation](https://docs.ansible.com/) |
 
 ```
 	sudo apt install ansible -y
@@ -241,13 +235,11 @@ Test your installation:
 	ansible localhost -m ping
 	ansible all -i "localhost," -m debug -a "msg='Hello Ansible'"
 ```
-<br />
 
 ### Terraform (Infraestructure as Code IaC)
+| [Documentation](https://www.terraform.io/docs) |
 
-| Documentation | https://www.terraform.io/docs | 
-
-How to install: https://learn.hashicorp.com/tutorials/terraform/install-cli
+How to [Install](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 ```
 	sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
@@ -261,28 +253,26 @@ How to install: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 	terraform -help
 ```
-<br />
 
-##  ==> Cloud 
-
+## > Cloud 
+_________________
 ### Azure CLI 
-| Documentation | https://docs.microsoft.com/en-us/cli/azure/ | 
+| [Documentation](https://docs.microsoft.com/en-us/cli/azure/) |
 
-How to Install: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+How to [Install](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 
 ```
+	curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 	az upgrade
 	az --version
 	azure-cli                         2.37.0
 ```
-<br />
 
 ### AWS CLI 
 
-| Documentation | https://docs.aws.amazon.com/index.html | 
-How to install: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html 
+| [Documentation](https://docs.aws.amazon.com/index.html) |
+
+How to [Install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ```
 	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
