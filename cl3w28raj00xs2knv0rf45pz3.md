@@ -2,7 +2,7 @@
 
 > Purpose: To provide a guide on how to set up a Bastion Server to be used on Network, Cloud and Other Automation tasks you may have. 
 
-This server was setup using Ubuntu Server 22.04, but you may use the lists provided in this article to install them on your desired distribution. 
+This server was setup using Ubuntu Server 22.04, however the majority of the software if not all of it mentioned in this article can be installed on your desired distribution. 
 
 You may download this distribution at [Ubuntu Site](https://ubuntu.com/download/server) click on Option2 and Manual Server installation. 
 
