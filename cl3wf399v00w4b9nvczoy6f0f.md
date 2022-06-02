@@ -1,15 +1,15 @@
 ## Certificate Generator
 
-I would like to share this bash script with you all, in case you have to generate a self-signed certificate on your own server for Lab purposes. This certificate will be valid for 10 years. 
+I would like to share this bash script with you all, in case you have to generate a self-signed certificate on your own server for Lab purposes. This certificate will be valid for 10 years but you can change it on the x509 section. 
 
 ### Formats used at this script:  
 > | Outputs | Description | Encoding | openssl command|
 > | - | - | - | - |
 > | .csr <br /> (or use .pem) |  Certificate Signing Request<br />  public-private keypair | Base64 (ASCII) | [req](https://www.openssl.org/docs/man1.0.2/man1/req.html) |
-> | .key | Private Key<br /> Public Key | Base64 (ASCII) | [genrsa](https://www.openssl.org/docs/man1.0.2/man1/genrsa.html) -des3<br /> [rsa](https://www.openssl.org/docs/man1.0.2/man1/rsa.html) |
+> | .key | Private Key<br /> Public Key | Base64 (ASCII) | [genrsa](https://www.openssl.org/docs/man1.0.2/man1/genrsa.html) <br /> [rsa](https://www.openssl.org/docs/man1.0.2/man1/rsa.html) |
 > | .crt<br /> (or use .cer) | Certificate | Base64 (ASCII) | [x509](https://www.openssl.org/docs/man1.0.2/man1/x509.html) |
-> | .pfx | personal exchange format | PKCS#12 Binary | pkcs12 |
-> | dhparam.pem | To enable the DHE-RSA-based SSL cipher suite | Base64 (ASCII) | dhparam |
+> | .pfx | personal exchange format | PKCS#12 Binary | [pkcs12](https://www.openssl.org/docs/manmaster/man1/pkcs12.html) |
+> | dhparam.pem | To enable the DHE-RSA-based SSL cipher suite | Base64 (ASCII) | [dhparam](https://www.openssl.org/docs/manmaster/man1/dhparam.html) |
 
 
 This script reads values described on the **read** command that will be used as variables to construct your self-signed certificate using openssl. This is easy, just follow these directions:
