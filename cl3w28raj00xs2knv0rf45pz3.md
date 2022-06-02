@@ -4,7 +4,7 @@
 
 This server was setup using Ubuntu Server 22.04, however the majority of the software if not all of it mentioned in this article can be installed on your desired distribution. 
 
-You may download this distribution at [Ubuntu Site](https://ubuntu.com/download/server) click on Option2 and Manual Server installation. 
+You may download this distribution at this [Ubuntu Site](https://ubuntu.com/download/server) click on Option2 and Manual Server installation. 
 
 >Note: I will not cover how to install this distribution, but I can advise not to install any of the packets that come with the distribution, like docker, as it may cause unexpected behavior that may conflict with my instructions below.  
 
