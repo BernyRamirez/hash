@@ -51,8 +51,11 @@ Description: Cisco YANG Suite provides a set of tools and plugins to learn, test
 
 ----------------------------------------
 <a name="arista">
+
 ## Arista
+
 </a>
+
 - [GitHub](https://github.com/aristanetworks)<br /> 
 
 - [API](https://aristanetworks.force.com/AristaCommunity/s/article/arista-eapi-101)<br /> 
