@@ -7,7 +7,7 @@ These are my personal notes on where to go to find specific vendor documentation
 If you are planning to get into network automation or even if you have been in here for a while, I think this information will be useful for you. 
 
 This resource list covers the following vendors:<br /> 
-[Cisco](./network-automation-resources#Cisco) - [Arista](#Arista) - [Juniper](#Juniper) -
+[Cisco](#Cisco) - [Arista](#arista) - [Juniper](#Juniper) -
 [F5](#F5) - [Palo Alto](#PaloAlto) - [Azure](#Azure) - [AWS](#AWS) - [GCP](#GCP)
 
 ----------------------------------------
@@ -50,8 +50,9 @@ Description: Cisco YANG Suite provides a set of tools and plugins to learn, test
 - Postman: [Cisco DevNet's Public Workspace:](https://www.postman.com/ciscodevnet?tab=workspaces)<br /> 
 
 ----------------------------------------
+<a name="arista">
 ## Arista
-
+</a>
 - [GitHub](https://github.com/aristanetworks)<br /> 
 
 - [API](https://aristanetworks.force.com/AristaCommunity/s/article/arista-eapi-101)<br /> 
