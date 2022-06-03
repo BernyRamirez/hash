@@ -7,7 +7,7 @@ These are my personal notes on where to go to find specific vendor documentation
 If you are planning to get into network automation or even if you have been in here for a while, I think this information will be useful for you. 
 
 This resource list covers the following vendors:<br /> 
-[Cisco](./nar.md#Cisco) - [Arista](./nar.md#Arista) - [Juniper](./nar.md#Juniper) -
+[Cisco](./network-automation-resources.md#Cisco) - [Arista](./network-automation-resources.md#Arista) - [Juniper](./network-automation-resources.md#Juniper) -
 [F5](./nar.md#F5) - [Palo Alto](./nar.md#PaloAlto) - [Azure](./nar.md#Azure) - [AWS](./nar.md#AWS) - [GCP](./nar.md#GCP)
 
 ----------------------------------------
