@@ -11,7 +11,7 @@ This resource list covers the following vendors:<br />
 [F5](#F5) - [Palo Alto](#PaloAlto) - [Azure](#Azure) - [AWS](#AWS) - [GCP](#GCP)
 
 ----------------------------------------
-# Cisco
+## Cisco
 [Wikipedia](https://en.wikipedia.org/wiki/Cisco_DevNet)
 
 - [Cisco Developer Documentation](https://developer.cisco.com/docs/)<br /> 
@@ -50,7 +50,7 @@ Description: Cisco YANG Suite provides a set of tools and plugins to learn, test
 - Postman: [Cisco DevNet's Public Workspace:](https://www.postman.com/ciscodevnet?tab=workspaces)<br /> 
 
 ----------------------------------------
-# Arista
+## Arista
 
 - [GitHub](https://github.com/aristanetworks)<br /> 
 
@@ -58,7 +58,7 @@ Description: Cisco YANG Suite provides a set of tools and plugins to learn, test
 Ansible-cvp, Ansible-avd, Cloudvision-python, CloudEOS, Cloud Vision APIs, etc. 
 
 ----------------------------------------
-# Juniper
+## Juniper
 
 - [GitHub](https://github.com/juniper) 
 - [Junos REST API](https://www.juniper.net/documentation/us/en/software/junos/rest-api/index.html)<br /> 
@@ -66,33 +66,33 @@ Ansible-cvp, Ansible-avd, Cloudvision-python, CloudEOS, Cloud Vision APIs, etc.
 - [EngNet API](https://eng.juniper.net/site/global/build/support_automation/service_api/index.gsp)<br /> 
 
 ----------------------------------------
-# F5
+## F5
 
 - [GitHub](https://github.com/F5Networks)<br /> 
 Ansible-bigip, terraform-bigip, azure-arm-templates, f5-common-python<br /> 
 - [F5 APIs](https://clouddocs.f5.com/api/)<br /> 
 
 ----------------------------------------
-# PaloAlto
+## PaloAlto
 
 ----------------------------------------
-# Azure
-- []()<br /> 
-- []()<br /> 
-- []()<br /> 
-
-----------------------------------------
-# AWS
+## Azure
 - []()<br /> 
 - []()<br /> 
 - []()<br /> 
 
 ----------------------------------------
-# GPC
+## AWS
+- []()<br /> 
+- []()<br /> 
+- []()<br /> 
+
+----------------------------------------
+## GPC
 - []()<br /> 
 - []()<br /> 
 - []()<br /> 
 
 
-## This is it, I hope you enjoyed it !!!
+** This is it, I hope you enjoyed it !!! **
 
