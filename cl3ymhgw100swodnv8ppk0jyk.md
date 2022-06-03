@@ -14,6 +14,7 @@ This resource list covers the following vendors:<br />
 ## Cisco
 [Wikipedia](https://en.wikipedia.org/wiki/Cisco_DevNet)
 
+- [DevNet GitHub](https://github.com/CiscoDevNet)<br /> 
 - [Cisco Developer Documentation](https://developer.cisco.com/docs/)<br /> 
 Description: Everything about Everything<br /> 
 - [Cisco DevNet](https://developer.cisco.com/) - [Github](https://github.com/CiscoDevNet)<br /> 
@@ -42,7 +43,6 @@ git clone https://github.com/datacenter/acitoolkit.git<br />
 Description: Open-source Yang Browser and RPC Builder Application to experiment with Yang Data Models
 [Developer](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/yang-explorer/) - 
 [Github](https://github.com/CiscoDevNet/yang-explorer)<br /> 
-
 - YANG Suite: (New Project)<br /> 
 Description: Cisco YANG Suite provides a set of tools and plugins to learn, test, and adopt YANG programmable interfaces such as NETCONF, RESTCONF, gNMI and more.
 [Developer](https://developer.cisco.com/yangsuite/) - 
@@ -50,16 +50,13 @@ Description: Cisco YANG Suite provides a set of tools and plugins to learn, test
 - Postman: [Cisco DevNet's Public Workspace:](https://www.postman.com/ciscodevnet?tab=workspaces)<br /> 
 
 ----------------------------------------
-## <a name="arista"> Arista </a>
-
+## Arista
 - [GitHub](https://github.com/aristanetworks)<br /> 
-
 - [API](https://aristanetworks.force.com/AristaCommunity/s/article/arista-eapi-101)<br /> 
 Ansible-cvp, Ansible-avd, Cloudvision-python, CloudEOS, Cloud Vision APIs, etc. 
 
 ----------------------------------------
 ## Juniper
-
 - [GitHub](https://github.com/juniper) 
 - [Junos REST API](https://www.juniper.net/documentation/us/en/software/junos/rest-api/index.html)<br /> 
 - Juniper EngNet - [Home](https://eng.juniper.net/site/global/home/index.gsp) - [About](https://eng.juniper.net/site/global/overview/index.gsp)<br /> 
@@ -67,31 +64,40 @@ Ansible-cvp, Ansible-avd, Cloudvision-python, CloudEOS, Cloud Vision APIs, etc.
 
 ----------------------------------------
 ## F5
-
 - [GitHub](https://github.com/F5Networks)<br /> 
 Ansible-bigip, terraform-bigip, azure-arm-templates, f5-common-python<br /> 
 - [F5 APIs](https://clouddocs.f5.com/api/)<br /> 
 
 ----------------------------------------
 ## PaloAlto
+- [GitHub](https://github.com/PaloAltoNetworks)<br /> 
+- [API Documentation](https://docs.paloaltonetworks.com/develop/api#sort=relevancy&layout=card&numberOfResults=25)<br /> 
+- [PAN-OS REST API](https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-panorama-api/get-started-with-the-pan-os-rest-api/pan-os-rest-api)<br /> 
 
 ----------------------------------------
 ## Azure
-- []()<br /> 
-- []()<br /> 
-- []()<br /> 
+- [GitHub](https://github.com/Azure)<br /> 
+- [ARM Templates](https://duckduckgo.com/?t=ffab&q=Azure+ARM+templates&atb=v302-1&ia=web)<br /> 
+- [Azure Terraform Registry](https://registry.terraform.io/namespaces/Azure)<br /> 
+- [Azure Ansible](https://docs.ansible.com/ansible/latest/scenario_guides/guide_azure.html)<br /> 
+- [Azure Powershell](https://docs.microsoft.com/en-us/powershell/azure/?view=azps-8.0.0)<br /> 
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/)<br />  
 
 ----------------------------------------
 ## AWS
-- []()<br /> 
-- []()<br /> 
-- []()<br /> 
+- [GitHub](https://github.com/aws)<br /> 
+- [Documentation](https://docs.aws.amazon.com/index.html)<br /> 
+- [AWS Terraform Registry](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)<br /> 
+- [AWS Ansible](https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html)<br /> 
+- [AWS CLI](https://aws.amazon.com/cli/)<br /> 
 
 ----------------------------------------
 ## GPC
-- []()<br /> 
-- []()<br /> 
-- []()<br /> 
+- [GitHub](https://github.com/GoogleCloudPlatform/)<br /> 
+- [gCloud CLI](https://cloud.google.com/sdk/gcloud/)<br /> 
+- [gCloud Terraform](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/getting_started)<br /> 
+- [gCloud Ansible](https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html)<br /> 
+ 
 
 
 ** This is it, I hope you enjoyed it !!! **
