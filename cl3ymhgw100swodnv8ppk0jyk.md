@@ -12,8 +12,8 @@ This resource list covers the following vendors:<br />
 
 ----------------------------------------
 ## Cisco
-[Wikipedia](https://en.wikipedia.org/wiki/Cisco_DevNet)
 
+- [Wikipedia](https://en.wikipedia.org/wiki/Cisco_DevNet)<br /> 
 - [DevNet GitHub](https://github.com/CiscoDevNet)<br /> 
 - [Cisco Developer Documentation](https://developer.cisco.com/docs/)<br /> 
 Description: Everything about Everything<br /> 
