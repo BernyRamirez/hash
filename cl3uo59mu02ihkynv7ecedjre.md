@@ -4,9 +4,10 @@
 
 The intention of this article is to provide you with a quick summary on the most important topics you should focus to successfully manage file and directory permissions. 
 
-**Access Control Lists (ACLs):** Allow the administrator to enforce extended security attributes on files and directories.
+**Standard Access Permissions:** Exist as the default method which works on individual files and directories.  *(covered in this article)*
 
-**Standard Access Permissions:** Exist as the default method which works on individual files and directories. 
+**Access Control Lists (ACLs):** Allow the administrator to enforce extended security attributes on files and directories. *(will be discussed on another article)*
+
 
 User access rights are form of **Permission Classes and Types**
 
