@@ -103,32 +103,43 @@ sudo apt install python3
 	sudo pip3 install --upgrade pip
 ```
 
- - Install the following Modules/Libraries:
-   
-```
-    pip3 freeze | grep <>
- 	pip3 install 
-		paramiko	(SSH API)
-		netmiko		(SSH API)
-		napalm		(Unified API to Network Devices)
-		requests 	(Used for restconf)
-		ncclient	(Used for netconf)
-		xmltodict	(XML Parser, dictionary...)
-		pylint		(Bug and quality checker)
-		nornir
-		django
-```
-    
- - Modules/Libraries already integrated with Python:
+- Create a requirements file which will include all the packages we require to install:
 
 ```
-		pprint		("pretty-print" Python Data Structures)
-		lxml		(XML Parser ElementTree API) 
-		pyyaml		(YAML Parser and emitter)
-		jinja2		(Templating language for Python)
-		unittest	(Python testing framework)
-		pytest		(Python testing framework)
-		json		(JavaScript Object Notation parser)
+touch requirements.txt
+vi requirements.txt
+
+###### All packages will install the latest version ######
+# If you want to install an specific version you should specify it after the name. 
+
+ipython        #(Interactive python)
+paramiko     #(SSH API)
+netmiko       #(SSH API)
+napalm        #(Unified API to Network Devices)
+requests 	#(Used for restconf)
+ncclient	    #(Used for netconf)
+xmltodict	#(XML Parser, dictionary...)
+pylint		    #(Bug and quality checker)
+nornir          #(Automation framework)
+django        #(Web Framework)
+
+pprint		  #("pretty-print" Python Data Structures)
+lxml		      #(XML Parser ElementTree API) 
+pyyaml	  #(YAML Parser and emitter)
+jinja2		  #(Templating language for Python)
+unittest	  #(Python testing framework)
+pytest		  #(Python testing framework)
+json		  #(JavaScript Object Notation parser)
+
+:wq!
+```
+
+ - Install the following Modules/Libraries:
+```
+    pip3 install -r requirements.txt   
+
+    python -m pip list     
+    pip3 freeze
 ```
 
 ## > Projects
