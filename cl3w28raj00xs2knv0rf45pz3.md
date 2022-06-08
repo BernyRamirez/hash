@@ -12,6 +12,11 @@ You may proceed to install this OS on either bare metal, vmware, qemu or other m
 
 For simplicity I have created different categories you should follow based on your needs. 
 
+Before proceeding, make sure you update all of your packages by fetching the latest version of the package list from your distro's software repository, and any third-party repositories *(apt update)* and then download and install the updates for each outdated package and dependency on your system *(apt upgrade)*
+
+```
+   sudo apt update && sudo apt upgrade
+```
 
 ## > Code Editor
 _________________
@@ -58,12 +63,18 @@ _________________
  - Make sure you have the most updated version of Python:
 
 ```
+sudo apt install software-properties-common  
+sudo add-apt-repository ppa:deadsnakes/ppa  
+sudo apt update
+sudo apt install python3    
+
     python3 -V			(Check the current version)
 	Python 3.10.4
 
 	whereis python3		(Check folder installations)
 	
     sudo apt-get install python-is-python3 
+    sudo apt-get install python-dev
 ```
  - Add corresponding aliases (~/.bash_aliases or .bashrc)
   
