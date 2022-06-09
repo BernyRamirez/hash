@@ -85,8 +85,14 @@ sudo apt install python3
 	source ~/.bashrc	(loads the file)
 ```
 
+-Add corresponding ENV variable only if you have issues with the current ENV PATH, but this should work as by default /usr/bin is added into the PATH. 
+
+```
+export PATH="$PATH:/usr/bin/python"
+ env | grep py
+```
  - Install PIP3: (Python Package Manager)
- 
+
 ```
 	sudo apt install python3-pip -y
 
