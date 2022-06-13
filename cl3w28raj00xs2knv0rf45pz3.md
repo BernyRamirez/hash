@@ -127,6 +127,7 @@ ncclient        #(Used for netconf)
 xmltodict    #(XML Parser, dictionary...)
 pylint            #(Bug and quality checker)
 nornir          #(Automation framework)
+nornir_utils  #(nornir utilities)
 django        #(Web Framework)
 
 prettyprint          #("pretty-print" Python Data Structures)
